@@ -39,12 +39,6 @@ body{
     margin: 0 0 0 0;
     padding-bottom: 0 0 0 0;
 }
-.head-text sub{
-    font-size: 16px;
-    font-family: 'Kdam Thmor', sans-serif;
-    margin: 0 0 0 0;
-    padding-bottom: 0 0 0 0;
-}
 .logoimg{
     display: flex;
     align-items: center;
