@@ -39,12 +39,20 @@ body{
     margin: 0 0 0 0;
     padding-bottom: 0 0 0 0;
 }
-.logoimg{
+.logoimg1{
     display: flex;
     align-items: center;
     width: 0;
 }
-.logoimg img{
+.logoimg2{
+    display:flex;
+    align-items: center;
+    width: 0;
+}
+.logoimg1 img{
+    height: 75px;
+}
+.logoimg1 img{
     height: 75px;
 }
 
