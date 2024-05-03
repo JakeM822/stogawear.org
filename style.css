@@ -17,7 +17,6 @@ body{
 
 .head-container{
     display:flex;
-    flex-direction: row;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -39,7 +38,7 @@ body{
     margin: 0 0 0 0;
     padding-bottom: 0 0 0 0;
 }
-.head-text img{
+.logo img{
     display: flex;
     align-items: center;
     width: 0%;
