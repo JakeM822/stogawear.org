@@ -50,10 +50,11 @@ body{
     text-align: center;
     color: rgb(86, 26, 33);
     background-color: white;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
     margin-top: 0;
-    border-top: 2px rgb(86, 26, 33) solid;
-    border-bottom: 20px white solid;
+    border-top: 1px rgb(86, 26, 33) solid;
+    border-bottom: 1px white solid;
 }
 .pickup h2{
     background-color: white;
@@ -65,12 +66,14 @@ body{
 .info-box{
     height: 100%;
     margin-top: 0;
+    margin-bottom: 0;
     justify-content: center;
 }
 .info-box p{
     font-size: 25px;
     font-family: 'Kdam Thmor', sans-serif;
     margin-top: 0;
+    margin-bottom: 1px;
 }
 
 
@@ -80,6 +83,7 @@ body{
     max-width: 100%;
     align-items: center;
     font-family: 'Kadwa', serif;
+    margin-top: 0;
 }
 .item-container h2{
     display: inline-block;
@@ -92,6 +96,7 @@ body{
     padding: 0px 0px;
     border-top: 1px white solid;
     border-bottom: 1px white solid;
+    margin-top: 0px;
 }
 .item-box{
     display: flex;
