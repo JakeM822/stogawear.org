@@ -1,0 +1,311 @@
+body{
+    background-color: rgb(113, 113, 113);
+    padding: 0; 
+    margin: 0;
+    max-width: 100%;
+}
+.kadwa-regular {
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kadwa-bold {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.head-container{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(86, 26, 33);
+    margin: 0;
+    padding: 0;
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "Kadwa", serif;
+}
+.head-text h1{
+    font-size: 42px;
+    margin: 0 0 0 0;
+    padding-bottom: 0 0 0 0;
+}
+.head-text sub{
+    font-size: 16px;
+    font-family: 'Kdam Thmor', sans-serif;
+    margin: 0 0 0 0;
+    padding-bottom: 0 0 0 0;
+}
+.logoimg{
+    display: flex;
+    align-items: center;
+    width: 0;
+}
+.logoimg img{
+    height: 75px;
+}
+
+.pickup{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(86, 26, 33);
+    background-color: white;
+    padding: 0;
+    margin-top: 0;
+    border-top: 2px rgb(86, 26, 33) solid;
+    border-bottom: 20px white solid;
+}
+.pickup h2{
+    background-color: white;
+    font-size: 36px;
+    font-family: 'Kadwa', serif;
+    text-decoration: underline;
+}
+.info-box{
+    height: 100%;
+    justify-content: center;
+}
+.info-box h3{
+    font-family: 'Kdam Thmor', sans-serif;
+    font-size: 30px;
+}
+.info-box p{
+    font-size: 25px;
+    font-family: 'Kdam Thmor', sans-serif;
+}
+.info-box address{
+    padding: 0;
+    font-size: 28px;
+    font-family: 'Kdam Thmor', sans-serif;
+    text-decoration: underline;
+}
+.info-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    font-family: 'Kadwa', serif;
+}
+.item-container h2{
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(63, 23, 29);
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    padding: 0px 0px;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+.item-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 20px;
+    width: auto;
+    border-style: solid;
+    border-color: rgb(213, 211, 211);
+    background-color: rgb(213, 211, 211);
+    border-radius: 3px;
+}
+.item-container p{
+    font-size: 16px;
+}
+.item-box img {
+    height: 417px;
+    width: 367px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.item-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+.item-form form{
+    max-width: fit-content;
+}
+.item-form select{
+    width: 100%;
+    font-family: 'Kadwa', serif;
+    border:rgb(63, 23, 29) solid 2px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.item-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.cart:hover{
+    filter: brightness(160%);
+}
+.hover{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.hover .back{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+}
+.hover:hover .front{
+    transform: scale(0);
+}
+.hover:hover .back{
+    opacity: 1;
+    z-index: 1;
+}
+
+footer{
+    color: white;
+    background-color: rgb(86, 26, 33);
+    width: 100%;
+    text-align: center;
+    font-family: 'Kadwa', serif;
+    padding: 20px 0 20px 0;
+}
+
+@media only screen and (max-width: 820px){
+    .logoimg img {
+        display: none;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(113, 113, 113);
+      padding: 0; 
+      margin: 0;
+      max-width: 100%;
+    }
+  
+    .kadwa-regular {
+      font-family: "Kadwa", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    .kadwa-bold {
+      font-family: "Kadwa", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  
+    .head-container {
+      background-color: rgb(86, 26, 33);
+      padding: 0;
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .head-text h1 {
+      font-size: 30px; 
+    }
+    .head-text p {
+      font-size: 15px; 
+    }
+  
+    .nav-bar{
+        display: none;
+    }
+
+    .pickup h2{
+        font-size: 20px;
+    }
+    .info-box h3{
+        font-size: 18px;
+    }
+    .info-box p{
+        font-size: 16px;
+    }
+    .info-box address{
+        font-size: 16px;
+    }
+    .item-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 50%;
+    }
+    .item-container h2 {
+      font-size: 20px;
+      padding-top: 0;
+      margin-top: 0;
+      width: 100%;
+    }
+    .item-box .hover .front {
+        display: flex;
+    }
+    .item-box .hover .back {
+        display: flex;
+    }
+    .item-box .hover:hover .front{
+        display: flex;
+    }
+    .item-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center; 
+        justify-content: space-evenly; 
+        width: 100%;
+    }
+    .item-box {
+        height: auto;
+        width: 146.8px;
+    }
+    .item-box img {
+        height: 166.8px;
+        width: 146.8px;
+    }
+    .item-box h3{
+        padding-top: 0;
+        font-size: 16px;
+    }
+    .item-box p{
+        padding-top: 0;
+        font-size: 15px;
+    }
+    .item-form select{
+        width: 100%;
+        font-family: 'Kadwa', serif;
+        border:rgb(63, 23, 29) solid 2px;
+        border-radius: 3px;
+        height: 40px;
+    }
+    .cart{
+        width: 100%;
+        height:40px;
+    }
+    footer {
+      padding: 20px 0; 
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  
+
