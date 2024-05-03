@@ -159,7 +159,7 @@ body{
 .cart:hover{
     filter: brightness(160%);
 }
-.cart{
+.cart img{
     height: 60px;
     width:auto;
 }
