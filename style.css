@@ -161,6 +161,12 @@ body{
     opacity: 1;
     z-index: 1;
 }
+.proceeds{
+    font-family: 'Kdam Thmor', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
 
 footer{
     color: white;
