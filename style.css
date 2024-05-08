@@ -245,6 +245,9 @@ footer{
     .info-box address{
         font-size: 16px;
     }
+    .quest{
+        font-size: 14px;
+    }
     .item-container{
         display: flex;
         flex-wrap: wrap;
