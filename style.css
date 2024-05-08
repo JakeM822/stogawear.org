@@ -92,6 +92,10 @@ body{
     margin-top: 0;
     margin-bottom: 1px;
 }
+.quest{
+    font-family: 'Kdam Thmor', sans-serif;
+    font-size: 20px;
+}
 
 
 .item-container {
