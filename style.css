@@ -43,8 +43,10 @@ body{
     font-size: 30px;
     font-family: 'Kdam Thmor', sans-serif;
 }
-.logoimg{
-    display: none;
+.logo img{
+    align-items: flex-start;
+    width: auto;
+    height: 60px;
 }
 
 .mesbox{
