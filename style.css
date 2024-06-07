@@ -46,7 +46,7 @@ body{
 .logo img{
     align-items: flex-start;
     width: auto;
-    height: 60px;
+    height: auto;
 }
 
 .mesbox{
