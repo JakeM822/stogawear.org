@@ -39,11 +39,7 @@ body{
     margin: 0 0 0 0;
     padding-bottom: 0;
 }
-.logo img{
-    align-items: flex-start;
-    width: auto;
-    height: 100%;
-}
+
 
 .mesbox{
     width: 100%;
