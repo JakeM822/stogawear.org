@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(113, 113, 113);
+    background-color: white;
     padding: 0; 
     margin: 0;
     max-width: 100%;
@@ -17,7 +17,6 @@ body{
 
 .head-container{
     display:flex;
-    flex-direction: row;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -26,109 +25,42 @@ body{
     padding: 0;
 }
 .head-text{
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     color: white;
     font-family: "Kadwa", serif;
 }
 .head-text h1{
-    font-size: 42px;
-    margin: 0 0 0 0;
-    padding-bottom: 0;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
 }
-.proceeds{
-    font-family: 'Kadwa', serif;
-    font-size: 20px;
-    text-align: center;
-    width: 100%;
-    background-color: rgb(86, 26, 33);
-    color: white;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 0;
+.head-text p{
+    font-size: 30px;
+    font-family: 'Kdam Thmor', sans-serif;
 }
-.proceeds p{
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 0;
+.logoimg{
+    display: flex;
+    align-items: center;
 }
-.logo img{
-    align-items: flex-start;
-    width: auto;
-    height: 60px;
+.logoimg img{
+    height: 120px;
 }
 
 .mesbox{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     text-align: center;
+    flex-direction: column;
 }
-.mesbox .message{
-    font-family: 'Kadwa', serif;
+.message{
+    font-family: "Kadwa", serif;
     font-size: 24px;
-}
-
-footer{
-    color: white;
-    margin-top: 0;
-    background-color: rgb(86, 26, 33);
-    width: 100%;
     text-align: center;
-    font-family: 'Kadwa', serif;
-    padding: 10px 0 20px 0;
-}
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: white;
-      padding: 0; 
-      margin: 0;
-      max-width: 100%;
-    }
-  
-    .kadwa-regular {
-      font-family: "Kadwa", serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-  
-    .kadwa-bold {
-      font-family: "Kadwa", serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-  
-    .head-container {
-      background-color: rgb(86, 26, 33);
-      padding: 0;
-      max-width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .head-text h1 {
-      font-size: 30px;
-        text-align: center;
-        
-    }
-    .logo img{
-        display: none;
-    }
-    .mesbox{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    font-family: 'Kadwa', serif;
-    font-size: 18px;
 }
-    footer {
-      padding: 20px 0; 
-      font-size: 14px;
-      width: 100%;
-    }
-  }
-  
