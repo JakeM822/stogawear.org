@@ -44,12 +44,7 @@ body{
     font-family: 'Kdam Thmor', sans-serif;
 }
 .logoimg{
-    display: flex;
-    align-items: center;
-}
-.logoimg img{
-    height: 60px;
-    width: 100%;
+    display: none;
 }
 
 .mesbox{
