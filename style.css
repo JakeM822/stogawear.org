@@ -65,6 +65,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    text-align: center;
+}
+.mesbox .message{
     font-family: 'Kadwa', serif;
     font-size: 24px;
 }
