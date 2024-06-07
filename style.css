@@ -17,6 +17,7 @@ body{
 
 .head-container{
     display:flex;
+    flex-direction: row;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -25,23 +26,18 @@ body{
     padding: 0;
 }
 .head-text{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
     color: white;
     font-family: "Kadwa", serif;
 }
 .head-text h1{
-    font-size: 60px;
-    margin: 0;
-    padding: 0;
-}
-.head-text p{
-    font-size: 30px;
-    font-family: 'Kdam Thmor', sans-serif;
+    font-size: 42px;
+    margin: 0 0 0 0;
+    padding-bottom: 0;
 }
 .logo img{
     align-items: flex-start;
