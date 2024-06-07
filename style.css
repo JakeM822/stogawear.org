@@ -50,11 +50,11 @@ body{
 .mesbox{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
 }
 .message{
     font-family: "Kadwa", serif;
     font-size: 24px;
+    flex-wrap: wrap;
 }
