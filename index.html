@@ -60,7 +60,7 @@
                   <option value="L"> L $40.00 USD </option> 
                   <option value="XL"> XL $40.00 USD </option> <option value="XXL"> XXL $40.00 USD </option> 
                 </select> </td> </tr> </table> <input type="hidden" name="currency_code" value="USD" /> 
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" /> 
+          <input class = "cart" type="image" src="images/button.svg" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" /> 
         </form>
       </div>
     </div>
@@ -82,7 +82,7 @@
               <option value="L"> L $70.00 USD </option> 
               <option value="XL"> XL $70.00 USD </option> 
               <option value="XXL"> XXL $70.00 USD </option> </select> </td> </tr> </table> 
-          <input type="hidden" name="currency_code" value="USD" /> <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" /> 
+          <input class = "cart" type="image" src="images/button.svg" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" /> 
         </form>
       </div>
       <div class = "item-box">
@@ -101,21 +101,26 @@
               <option value="XL"> XL $35.00 USD </option> 
               <option value="XXL"> XXL $35.00 USD </option> </select> </td> </tr> </table> 
           <input type="hidden" name="currency_code" value="USD" /> 
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" /> 
+          <input class = "cart" type="image" src="images/button.svg" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" /> 
         </form>
       </div>
     </div>    
   </section>
+  <section class = "item-container" id = accessories>
     <h2>Accessories</h2>
-      <div class = "item-box">
-        <img src = "images/Magnet (1).JPG" alt = "Stoga Magnet">
-        <p>Stoga Magnet<br>$5.00</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-          <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="594J8XRDR74XQ" />
-          <input type="hidden" name="currency_code" value="USD" />
-          <input class = "cart" type="image" src="images/button.svg" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        </form>
+      <div class = "item-row">
+        <div class = "item-box">
+          <div>
+            <img src = "images/Magnet (1).JPG" alt = "Stoga Magnet">
+            <p>Stoga Magnet<br>$5.00</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="594J8XRDR74XQ" />
+              <input type="hidden" name="currency_code" value="USD" />
+              <input class = "cart" type="image" src="images/button.svg" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+            </form>
+          </div>
+        </div>
       </div>
   </section>
   <footer>
@@ -123,4 +128,5 @@
   </footer>
 </body>
 </html>
+
 
